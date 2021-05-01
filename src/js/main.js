@@ -1,4 +1,5 @@
 'use strict';
+import 'jquery';
 import modal, {openModal} from './modules/modal';
 import calc from './modules/calc';
 import form from './modules/forms';
@@ -27,6 +28,7 @@ window.addEventListener('DOMContentLoaded', () => {
 	 });
 	 tabs();
 	 timer();
+
 
 });
 
